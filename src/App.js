@@ -10,9 +10,9 @@ function App() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="logo md:text-5xl text-m">
-          <a href="/">
-            Haneen <span>Lisan</span>
+        <div className="logo ">
+          <a href="/" className="flex md:text-5xl text-md ">
+            Ha <span className="text-[#04fffb]">neen</span> 
           </a>
         </div>
         <i className="bx bx-menu ml-[120px]" id="menu-icon"></i>
