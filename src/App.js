@@ -2,7 +2,7 @@ function App() {
   return (
     <div>
       <header
-        className="fixed top-0 left-0 w-full py-14 px-[9%] bg-[rgba(0,0,0,0.6)] backdrop-blur-[10px] flex justify-between items-center z-[100]"
+        className="fixed top-0 left-0 w-full md:py-12 py-8 px-[9%] bg-[rgba(0,0,0,0.6)] backdrop-blur-[10px] flex justify-between items-center z-[100]"
         style={{
           backgroundImage: "url('/sss.png')",
           backgroundSize: "cover",
@@ -10,13 +10,12 @@ function App() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="logo">
+        <div className="logo md:text-5xl text-m">
           <a href="/">
             Haneen <span>Lisan</span>
           </a>
-
-          <i class="bx bx-menu" id="menu-icon"></i>
         </div>
+        <i className="bx bx-menu ml-[120px]" id="menu-icon"></i>
 
         <div>
           <nav className="navbar">
