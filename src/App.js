@@ -15,7 +15,7 @@ function App() {
             Ha <span className="text-[#04fffb]">neen</span> 
           </a>
         </div>
-        <i className="bx bx-menu ml-[120px]" id="menu-icon"></i>
+        <i className="bx bx-menu ml-[190px]" id="menu-icon"></i>
 
         <div>
           <nav className="navbar">
